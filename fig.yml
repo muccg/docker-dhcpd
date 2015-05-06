@@ -1,0 +1,5 @@
+dhcpd:
+  build: .
+  command: dhcpd
+  volumes:
+    - data/dhcpd:/data
